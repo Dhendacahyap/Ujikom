@@ -1,0 +1,296 @@
+body {
+    font-family: 'Montserrat';
+}
+
+/* navbar */
+
+
+.navbar nav {
+    background-color: #171717;
+    border-bottom: 1px solid #333;
+
+}
+
+.nav-item {
+    margin-right: 50px;
+    font-weight: 200;
+}
+
+.nav-item.active a {
+    color: #F9B234 !important;
+    font-weight: 600;
+}
+
+.nav-link span {
+    color: #F9B234;
+    font-weight: 600;
+}
+
+/* navbar end */
+
+/* carousel */
+
+.carousel {
+    height: 450px;
+    background-color: #171717;
+    color: white;
+}
+
+.carousel h1 {
+    font-family: 'lora';
+    /* font-size: 48px; */
+}
+
+.carousel p {
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.carousel a.btn {
+    width: 150px;
+    font-weight: normal;
+    background-color: #F9B234;
+}
+
+.carousel a.btn:hover {
+    background-color: #ec9e16;
+}
+
+/* carousel end */
+
+
+/* Features */
+
+.features {
+    background-color: #F6F7FB;
+}
+
+.features h3,
+.designer h3,
+.similar-product h3,
+.cart-header h3,
+.checkout-modal-succes h3 {
+    font-family: 'lora';
+    font-weight: 600;
+    color: #1B2690;
+}
+
+.features p,
+.designer p,
+footer p,
+.similar-product p,
+.cart-header p,
+.checkout-modal-succes p {
+    font-weight: 200;
+    color: #B7B7B7;
+}
+
+.figure h5 {
+    font-weight: 500;
+    color: #171717;
+}
+
+.figure-img {
+    position: relative;
+}
+
+.figure-img a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 8px;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: .3s;
+}
+
+.figure-img:hover a {
+    opacity: 1;
+}
+
+/* Features End */
+
+
+/* Breadcrumb */
+
+.breadcrumb {
+    margin-top: 100px;
+    font-size: 18px;
+}
+
+.cart-breadcrumb {
+    margin-top: 50px;
+}
+
+.breadcrumb .category a {
+    color: #1B2690;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.breadcrumb .active {
+    color: #B7B7B7;
+}
+
+
+/* Breadcrumb end */
+
+/* Single Procuct */
+
+.product-thumbnail-container {
+    background-color: white;
+    width: 380px;
+    padding: 9px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    transform: translateY(-41px);
+}
+
+.product-thumbnail-container a:hover {
+    text-decoration: none;
+}
+
+
+.btn-product {
+    margin: 50px 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #EAEAEF;
+}
+
+.btn-product .btn {
+    display: block;
+    margin: 10px 0;
+}
+
+.btn-cart {
+    background-color: #F9B234;
+    font-weight: 600;
+    padding: 12px;
+    font-size: 18px;
+}
+
+.btn-cart:hover {
+    background-color: #ec9e16;
+}
+
+.btn-wishlist {
+    background-color: #edf0fa;
+    color: #ADADAD;
+    font-weight: 200;
+    padding: 12px;
+    font-size: 18px;
+}
+
+.btn-wishlist:hover {
+    background-color: #e0e1e6;
+}
+
+.designed-by h5 {
+    font-size: 14px;
+    font-weight: 200;
+    color: #B7B7B7;
+    margin-bottom: 15px;
+}
+
+.designed-by h4 {
+    font-size: 18px;
+    color: #171717;
+}
+
+.designed-by p {
+    font-size: 14px;
+    color: #171717
+}
+
+.designed-by p span {
+    color: #B7B7B7;
+}
+
+/* Single Procuct End */
+
+/* Product Description - Review */
+
+.product-description {
+    background-color: #F6F7FB;
+    height: 350px;
+}
+
+.product-description .tab-content {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-top: 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+
+.product-description .tab-content p {
+    font-size: 16px;
+    font-weight: 200;
+    color: #868686;
+    line-height: 28px;
+}
+
+.product-review {
+    height: 330px;
+    overflow: scroll;
+}
+
+.product-review .col-1 {
+    margin-bottom: 20px;
+}
+
+.product-review img {
+    padding-top: 6px;
+}
+
+.product-review h5 {
+    font-size: 18px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.product-review p {
+    font-size: 14px !important;
+}
+
+/* Product Description - Review End */
+
+.similar-product {
+    margin-top: 180px;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.similar-product .figure-img a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 8px;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: .3s;
+}
+
+.similar-product .figure-img:hover a {
+    opacity: 1;
+}
+
+/* checkout */
+
+.cart-item h5 {
+    font-size: 18px;
+    margin-top: 5px !important;
+}
+
+.cart-item p {
+    font-size: 14px;
+    font-weight: 200px;
+}
+
+.checkout-detail {
+    background-color: #F6F7FB;
+    border: 1px solid #EAEAEF;
+    color: #171717;
+}

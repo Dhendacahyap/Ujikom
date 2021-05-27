@@ -1,0 +1,51 @@
+body {
+    height: 20000px;
+}
+
+.jumbotron-fluid {
+    background-image: url(img/jumbotron.png);
+    background-size: cover;
+    height: 628px;
+}
+
+.navbar-dark {
+    background-color: #58CCF5;
+}
+
+
+.container h2 {
+    font-size: 32px;
+    font-weight: 500;
+    margin-top: 120px;
+    color: #1C8FDC;
+
+}
+
+.container p {
+    font-size: 22px;
+    margin-top: 120px;
+    color: #1C8FDC;
+
+}
+
+.tentang p {
+    font-size: 22px;
+    margin-top: 60px;
+}
+
+.manfaat-thumbnail,
+.img-thumbnail {
+    background-color: #EEFBFF;
+    margin-top: 60px;
+    border-radius: 8px;
+}
+
+.manfaat-thumbnail h4 {
+    color: #1C8FDC;
+    font-size: 24px;
+}
+
+.btn-masker {
+    width: 204px;
+    background-color: #a3daff;
+}
